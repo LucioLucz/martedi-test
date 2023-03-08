@@ -1,2 +1,2 @@
 # martedi-test
-Martedi is a real state business, this will be its landing page
+Martedi is an argentinian real state business, and this will be its landing page
