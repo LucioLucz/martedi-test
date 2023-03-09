@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+div#carousel{
+    padding: 0px;
+}
+div#carousel_container_1{
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+}
+div#carousel_row_1{
+    width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+div#carousel_container_2{
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+}
+.carousel-inner .item img{
+    height: 100vh !important;
+}
+.row_nosotros{
+    width: 100% !important;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.col_nosotros{
+    min-height: 100%;
+}
+
+div#pricing-4 .card{
+    background-color: #78c3d8;
+    color: #fefefe;
+}
+div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pricing-4 .card .card-title,div#pricing-4 .card .card-description{
+    color: #fefefe;
+}
+
+#contacto{
+    background-color: black;
+}
+
+@media (min-width: 768px) {
+    #nosotros, #servicios, #contacto{
+        height: 100vh;
+    }
+}
