@@ -102,7 +102,9 @@ div#pricing-4 .card{
 div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pricing-4 .card .card-title,div#pricing-4 .card .card-description{
     color: #fefefe;
 }
-
+div#pricing-4{
+    padding: 0px !important;
+}
 #hilera{
     max-height: 25vh;
 }
@@ -138,8 +140,11 @@ div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pr
     margin: 0px;
 }
 @media (min-width: 768px) {
-    #nosotros, #servicios, #contacto{
-        height: 100vh;
+    #nosotros, #contacto{
+        height: 100vh !important;
+    }
+    #servicios{
+        max-height: 80vh !important;
     }
 }
 @media (max-width: 480px) {
