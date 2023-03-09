@@ -21,10 +21,11 @@ div#carousel_container_2{
     width: 100% !important;
 }
 .carousel-inner .item img{
-    height: 100vh !important;
+    /* height: 100vh !important; */
+    height: auto !important;
 }
 .cover-home{
-    object-fit: cover !important;
+    /* object-fit: cover !important; */
     background-color: black;
 }
 /* nav.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent{
@@ -60,7 +61,7 @@ div#carousel_container_2{
     padding: 0px;
 }
 
-#ServiciosTitle{
+#serviciosTitle, #nosotrosTitle{
     padding-left: 15px;
 }
 
@@ -138,5 +139,10 @@ div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pr
 @media (min-width: 768px) {
     #nosotros, #servicios, #contacto{
         height: 100vh;
+    }
+}
+@media (max-width: 480px) {
+    #galeria{
+        display: none;
     }
 }
