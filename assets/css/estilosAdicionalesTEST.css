@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+div#carousel{
+    padding: 0px;
+}
+div#carousel_container_1{
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+}
+div#carousel_row_1{
+    width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+div#carousel_container_2{
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+}
+.carousel-inner .item img{
+    height: 100vh !important;
+}
+.row_nosotros{
+    width: 100% !important;
+    max-height: 100% !important;
+    margin: 1px 0px;
+    padding: 0px 0px 40px 0px !important;
+    display: flex;
+    align-items: stretch;
+}
+.col_nosotros{
+    min-height: 75%;
+    max-height: 90% !important;
+}
+
+.card.card-raised.card-background {
+    height: 100%;
+}
+#nosotros{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.projects-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nosotrosContainer{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ServiciosTitle{
+    padding-left: 15px;
+}
+
+.bgc-lightblue-grad{
+    background: linear-gradient(60deg, #78c3d8, #4E96AA) !important;
+    /* box-shadow: none !important; */
+    /* box-shadow: 0 5px 10px 0px rgb(0 0 0 / 20%), 0 13px 24px -11px rgb(78, 150, 170 / 60%) !important; */
+    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%), 0 4px 15px 0px rgb(0 0 0 / 50%), 0 8px 10px -5px rgb(0 0 0 / 20%) !important;
+}
+.green{
+    color: #298751 !important;
+}
+.lightblue{
+    color: #4E96AA !important;
+}
+.yellow{
+    color: #FFF00E !important;
+}
+.white{
+    color: white !important;
+}
+.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll{
+    background-color: black !important;
+    opacity: 0.9;
+}
+.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent{
+    background-color: transparent !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+div#pricing-4 .card{
+    background-color: #78c3d8;
+    color: #fefefe;
+}
+div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pricing-4 .card .card-title,div#pricing-4 .card .card-description{
+    color: #fefefe;
+}
+
+#hilera{
+    max-height: 25vh;
+}
+.hileraFotos{
+    padding: 10px 0px;
+    max-height: 100%;
+    display: flex !important;
+}
+.row-hilera{
+    display: flex !important;
+    align-items: center !important;
+}
+.card.card-plain.card-hilera{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0;
+}
+
+
+
+#contacto{
+    /* background-color: black; */
+}
+
+.contactus-1.section-image{
+    height: 100% !important;
+}
+.footer{
+    color: white;
+    background-color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    margin: 0px;
+}
+@media (min-width: 768px) {
+    #nosotros, #servicios, #contacto{
+        height: 100vh;
+    }
+}
