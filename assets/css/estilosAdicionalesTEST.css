@@ -23,6 +23,13 @@ div#carousel_container_2{
 .carousel-inner .item img{
     height: 100vh !important;
 }
+.cover-home{
+    object-fit: cover !important;
+    background-color: black;
+}
+/* nav.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent{
+    background-color: black !important;
+} */
 .row_nosotros{
     width: 100% !important;
     max-height: 100% !important;
@@ -112,12 +119,6 @@ div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pr
     align-items: center !important;
     justify-content: center !important;
     margin: 0;
-}
-
-
-
-#contacto{
-    /* background-color: black; */
 }
 
 .contactus-1.section-image{
