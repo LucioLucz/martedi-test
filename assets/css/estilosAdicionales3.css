@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+div#carousel{
+    padding: 0px;
+}
+div#carousel_container_1{
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+}
+div#carousel_row_1{
+    width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+div#carousel_container_2, div#carousel-example-generic{
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+}
+div#carousel_container_2 .card{
+    display: flex !important;
+}
+.carousel-inner{
+    background-color: black !important;
+}
+.carousel-inner>.item.left, .carousel-inner>.item.prev, .carousel-inner>.item.next,.carousel-inner>.item.right{
+    /* transition: opacity .2s ease-in-out; */
+    transition: transform .6s ease-in-out;
+    /* opacity: 0; */
+}
+.carousel-inner>.item.active{
+    opacity: 1;
+    transition: all .6s ease-in-out;
+}
+.carousel-inner>.item{
+    opacity: .1;
+    transition: opacity .5s ease-in-out;
+}
+/* .carousel-inner>.item,.carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right {
+    -webkit-transition: -webkit-transform .9s ease-in-out !important;
+    -o-transition: -o-transform .9s ease-in-out !important;
+    transition: transform .9s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 100px !important;
+    perspective: 100px !important;
+} */
+
+/* .cover-home{
+    background-color: black;
+} */
+div.card.card-raised.card-carousel{
+    margin: 0 !important;
+    height: 100% !important;
+    /* display: inline-block !important; */
+    position:  relative !important;
+    /* display: flex !important; */
+}
+.card.card-plain{
+    margin: 0px;
+}
+.row_nosotros{
+    width: 100% !important;
+    max-height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    align-items: stretch;
+}
+.col_nosotros{
+    min-height: 75%;
+    max-height: 100% !important;
+    padding: 0 !important;
+}
+.col_nosotros_derecha{
+    padding: 50px !important;
+    text-align: justify;
+}
+div.card.card-raised.card-background {
+    height: 100% !important;
+    margin: 0 !important;
+}
+.no-padding{
+    padding: 0px !important;
+}
+.no-margin{
+    margin: 0px !important;
+}
+#nosotros{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px !important;
+}
+.projects-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nosotrosContainer{
+    margin: 0px;
+    padding: 0px;
+    width: 100% !important;
+}
+#servicios{
+    display: inline !important;
+}
+#serviciosTitle, #nosotrosTitle{
+    padding-left: 15px;
+}
+.bgc-lightblue-grad{
+    background: linear-gradient(60deg, #78c3d8, #4E96AA) !important;
+    /* box-shadow: none !important; */
+    /* box-shadow: 0 5px 10px 0px rgb(0 0 0 / 20%), 0 13px 24px -11px rgb(78, 150, 170 / 60%) !important; */
+    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%), 0 4px 15px 0px rgb(0 0 0 / 50%), 0 8px 10px -5px rgb(0 0 0 / 20%) !important;
+}
+.green{
+    color: #298751 !important;
+}
+.lightblue{
+    color: #4E96AA !important;
+}
+.yellow{
+    color: #FFF00E !important;
+}
+.white{
+    color: white !important;
+}
+.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll{
+    background-color: black !important;
+    opacity: 0.9;
+}
+.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent{
+    background-color: transparent !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+div#pricing-4 .card{
+    background-color: #78c3d8;
+    color: #fefefe;
+}
+div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pricing-4 .card .card-title,div#pricing-4 .card .card-description{
+    color: #fefefe;
+}
+div#pricing-4{
+    padding: 0px !important;
+}
+#galeria{
+    padding: 0px !important;
+}
+#galeria > .container, #pricing-4 > .container{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+#hilera{
+    max-height: 25vh;
+}
+.hileraFotos{
+    padding: 0px !important;
+    max-height: 100%;
+    display: flex !important;
+    max-width: 100% !important;
+}
+.row-hilera{
+    display: flex !important;
+    align-items: center !important;
+}
+.full-width{
+    max-width: 100% !important;
+}
+.card, .card-plain .card-image img{
+    border-radius: 0px !important;
+}
+.card.card-plain.card-hilera{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0;
+}
+
+.contactus-1.section-image{
+    height: 100% !important;
+}
+.footer{
+    color: white;
+    background-color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    margin: 0px;
+}
+@media (min-width: 768px) {
+    #nosotros, #contacto{
+        height: 100vh !important;
+    }
+    #servicios{
+        /* max-height: 80vh !important; */
+    }
+}
+@media (max-width: 480px) {
+    #galeria, #hilera, .col_nosotros_izq{
+        display: none;
+    }
+}
