@@ -234,7 +234,7 @@ div#pricing-4 {
 /* MEDIA QUERIES - Inicio */
 /* Tablet */
 @media (max-width: 991px){
-  #galeria .row.full-width.no-margin{
+  #galeria .row.full-width.no-margin, #hilera .row.full-width.no-margin{
     display: flex !important;
   }
 }
