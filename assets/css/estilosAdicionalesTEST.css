@@ -21,8 +21,16 @@ div#carousel_container_2{
     width: 100% !important;
 }
 .carousel-inner .item img{
-    height: 100vh !important;
+    /* height: 100vh !important; */
+    height: auto !important;
 }
+.cover-home{
+    /* object-fit: cover !important; */
+    background-color: black;
+}
+/* nav.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent{
+    background-color: black !important;
+} */
 .row_nosotros{
     width: 100% !important;
     max-height: 100% !important;
@@ -42,6 +50,7 @@ div#carousel_container_2{
 #nosotros{
     margin-right: 0px;
     margin-left: 0px;
+    padding: 0px 0px 100px 0px !important;
 }
 .projects-1{
     display: flex;
@@ -53,7 +62,7 @@ div#carousel_container_2{
     padding: 0px;
 }
 
-#ServiciosTitle{
+#serviciosTitle, #nosotrosTitle{
     padding-left: 15px;
 }
 
@@ -93,7 +102,9 @@ div#pricing-4 .card{
 div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pricing-4 .card .card-title,div#pricing-4 .card .card-description{
     color: #fefefe;
 }
-
+div#pricing-4{
+    padding: 0px !important;
+}
 #hilera{
     max-height: 25vh;
 }
@@ -114,12 +125,6 @@ div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pr
     margin: 0;
 }
 
-
-
-#contacto{
-    /* background-color: black; */
-}
-
 .contactus-1.section-image{
     height: 100% !important;
 }
@@ -135,7 +140,15 @@ div#pricing-4 .card .icon .material-icons, div#pricing-4 .card .category, div#pr
     margin: 0px;
 }
 @media (min-width: 768px) {
-    #nosotros, #servicios, #contacto{
-        height: 100vh;
+    #nosotros, #contacto{
+        height: 100vh !important;
+    }
+    #servicios{
+        max-height: 80vh !important;
+    }
+}
+@media (max-width: 480px) {
+    #galeria, #hilera, .col_nosotros_izq{
+        display: none;
     }
 }
